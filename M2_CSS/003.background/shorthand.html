@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*#target{
+            background-image: url("nenanh/images/dog.jpg");
+            padding:50px;
+            width: 300px;
+            height: 1000px;
+            background-repeat: no-repeat;
+            background-position: top left;
+            border: 1px solid red;
+            background-attachment: fixed;
+
+        }*/
+        #target{
+            padding:50px;
+            width: 300px;
+            height: 1000px;
+            border: 1px solid red;
+            background: url("nenanh/images/dog.jpg") no-repeat fixed top left
+        }
+    </style>
+</head>
+<body>
+<pre>
+    các thuộc tính của background:
+    1. background-color
+    2. background-image
+    3. background-repeat
+    4. background-position
+    5. background-attachment
+    viết 5 thuộc tính css này trên 5 dòng sẽ dài
+    nên ngta sẽ viết rút gọn lại thành 1 thuộc tính duy nhất là backgroung
+    cú pháp như sau
+    background: background-color background-image background-repeat background-position background-attachment
+    nên ko có thuộc tính css nào trong 5 cái bên trên thì bỏ đi
+    có nghĩa là không nhất thiết cần đủ 5 thuộc tính css background
+    ví dụ:
+     bckground: #fff url("image/abc.jpg") no-repeat fixed top left;
+     bckground: #fff url("image/abc.jpg") no-repeat top left;
+     bckground: url("image/abc.jpg") no-repeat top left;
+     bckground: #fff
+
+</pre>
+<div id="target">
+    The background-image property specifies an image to use as the background of an element.
+
+    By default, the image is repeated so it covers the entire element.
+
+    The background image for a page can be set like this:
+</div>
+</body>
+</html>
