@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*
+           0-780px
+        */
+
+            body{
+                background: greenyellow;
+        }
+
+        /*780px-1000px*/
+        @media screen and (min-width: 780px){
+            body{
+                background: darkviolet;
+            }
+        }
+      /*1000px- 1200px*/
+        @media screen and (min-width: 1000px){
+            body{
+                background: red;
+            }
+        }
+      /*1-1200px*/
+        @media screen and (min-width: 1200px){
+            body{
+                background: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1> sử dụng nhiều @media screen đổi màu thẻ body theo kích cỡ màn hình</h1>
+<pre>
+    khi có nhiều @media screen
+    nếu dùng min-width thì sẽ tăng dần
+    nếu dụng max-width thì sẽ giảm dần
+    lý do css chạy từ đầu đến cuối
+    nếu có 1 kích cỡ màn hình mà thỏa mãn cả trên 1 @media (thì @media xuất hiện phía sau sẽ
+    đề lên @media xuất hiện phía trc)
+</pre>
+
+</body>
+</html>

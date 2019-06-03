@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style type="text/css">
+        .container{
+            background: orange;
+            padding: 20px;
+            margin: 30px auto;
+            width: 800px;
+        }
+        .row{
+            padding: 20px;
+            background: green;
+            overflow: auto;
+        }
+        .row::before{
+            content: "Nội dung muốn thêm vào phía trước bên trong thẻ html";
+            color: white;
+            display: block;
+            clear: both;
+        }
+        .row::after{
+            content: "Nội dung muốn thêm vào phía sau bên trong html";
+            color: white;
+            display: block;
+            clear: both;
+        }
+        .coll1{
+            padding: 20px 0;
+
+        }
+        .coll2{
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="coll1">cột 1</div>
+        <div class="coll2">cột 2</div>
+    </div>
+</div>
+<pre>
+    ::before : được sử dụng để thêm 1 nội dung vào phía trước bên trong thẻ html có thể là nội dung rỗng hoàn toàn với mục đich css
+    ::after : được sử dụng để thêm 1 nội dung vào phía sau bên trong thẻ html có thể là nội dung rỗng hoàn toàn với mục đich css
+</pre>
+</body>
+</html>

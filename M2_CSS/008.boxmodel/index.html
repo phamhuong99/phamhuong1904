@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style type="text/css">
+        #box-model{
+            background-color: navy;
+            color: white;
+            margin: 10px;
+            border: 2px solid red;
+            padding: 30px
+        }
+        #box-model1{
+            background-color: green;
+            color: white;
+            margin: 10px;
+            border: 2px solid red;
+            padding: 30px
+        }
+        #child{
+            background-color: cornflowerblue;
+            color: red;
+            margin: 10px;
+            border: 2px solid blue;
+            padding: 30px
+        }
+    </style>
+</head>
+<body>
+<pre>
+    box model gồm 4 thành phần:
+    1. margin là khoảng cách bên ngoai giữa thẻ html với các thành phần khác
+    2 border là viền
+    3 padding là khoảng cách phần đệm giữa border và content
+    4 content
+</pre>
+<div id="box-model">
+    nội dung chính của content
+</div>
+<div id="box-model1">
+    <div id="child">
+        nội dung thẻ child
+    </div>
+</div>
+</body>
+</html>
