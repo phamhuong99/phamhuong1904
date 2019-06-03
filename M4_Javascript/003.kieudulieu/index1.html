@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    các kiểu sữ liệu trong js
+    1. kiểu số (number) 3 --> số nguyên, 3.5--> số thực
+    2. kiểu chuỗi ("hello world")
+    3. kiểu boolean ( kiểu chứa 2 giá trị True|False)
+    4. kiểu mảng ( dánh sách các giá trị )
+    5. kiểu đối tượng
+    6. kiểu giá trị null
+    7. kiểu undefined ( có khai báo biến nhg không khai báo giá trị)
+    Mình có cái từ khóa typeof để kiểu tra kiểu dữ liệu của biến
+</pre>
+
+<script type="text/javascript">
+    //kiểu số
+    var x=5;
+    var y=3.5;
+
+    //kiểu chuỗi
+    var username= "huong";
+
+    //dạng boolean
+    var gender1= true;
+    var gender2= false;
+
+    //dạng mảng
+    var listStudent = ["anh", "huong"];
+
+    //dạng object
+    var student = {name:"huong", age:"20", location:"hung yen"};
+
+    //dạng null
+    var test1 = null;
+
+    //dạng undefined
+    var a;
+
+    //*toán tử nối chuỗi
+    /*
+    * chuỗi + chuỗi --> phép nối chuỗi
+    * chuỗi + só --> phép nối chuỗi
+    * số + số --> phép cộng*/
+
+    console.log('giá trị của biến x: ' + x);
+    console.log('kiểu dữ liệu của biến x: ' + typeof x);
+
+    console.log('giá trị của biến y: ' + y);
+    console.log('kiểu dữ liệu của biến y: ' + typeof y);
+
+    console.log('giá trị của biến username: ' + username);
+    console.log('kiểu dữ liệu của biến username: ' + typeof username);
+
+    console.log('giá trị của biến gender1: ' + gender1);
+    console.log('kiểu dữ liệu của biến gender1: ' + typeof gender1);
+
+    console.log('giá trị của biến gender2: ' + gender2);
+    console.log('kiểu dữ liệu của biến gender2: ' + typeof gender2);
+
+    console.log('giá trị của biến listStudent: ' + listStudent);
+    console.log('kiểu dữ liệu của biến listStudent: ' + typeof listStudent);
+
+    console.log('giá trị của biến student: ' + student);
+    console.log('kiểu dữ liệu của biến student: ' + typeof student);
+
+    console.log('giá trị của biến test1: ' + test1);
+    console.log('kiểu dữ liệu của biến test1: ' + typeof test1);
+
+    /*console.log('giá trị của biến a: ' + a);
+    console.log('kiểu dữ liệu của biến a: ' + typeof a);*/
+</script>
+</body>
+</html>
