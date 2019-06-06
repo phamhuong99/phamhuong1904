@@ -1,0 +1,54 @@
+/*
+header
+*/
+.header {
+    box-sizing: border-box;
+    height: 170px;
+    max-height: 170px;
+    padding: 50px 0;
+    width: 1000px;
+    margin: 0 auto;
+}
+.header nav.main-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.header nav.main-menu li{
+    float: left; /*căn trên 1 dòng về phía bên trái*/
+}
+
+.header nav.main-menu a{
+    display: inline-block;
+    padding: 10px 25px;
+    color: #8d8d8d;
+
+    font-size: 20px;
+
+}
+/*
+.header nav.main-menu i{
+    font-size: 12px;
+    color: #8d8d8d;
+}*/
+/*
+banner
+*/
+.banner{
+    margin-top: -170px;
+    height: 936px;
+    width: 100%;
+    background: url("../images/banner.jpg") top center;
+    display: table;
+}
+.banner h1{
+    color: #000000;
+    font-size: 83px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.banner h1 span {
+    color: #f66c27;
+}
