@@ -1,3 +1,11 @@
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /*
 header
 */
@@ -51,4 +59,108 @@ banner
 }
 .banner h1 span {
     color: #f66c27;
+}
+.image1 span{
+    position: absolute;
+}
+.image1{
+    margin-top: 145px;
+    margin-left: 100px;
+    z-index: 0;
+}
+span{
+    z-index: 1;
+}
+
+footer{
+    background: linear-gradient(to right, #f66c27 50%, #ffffff 50%);
+}
+footer .contact-form{
+    background: #f66c27;
+    box-sizing: border-box;
+    height: 700px;
+}
+.contact-form .content-row{
+    background: #ffffff;
+    padding: 60px;
+    margin-top: 128px;
+    margin-right: 100px;
+}
+.content-row input, textarea{
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+    font-size: 15px;
+    color: #777777;
+
+}
+.first-row input{
+    width: 40%;
+}
+.first-row:after{
+    content: '';
+    clear: both;
+
+}
+.first-row input[name="email"]{
+    float: right;
+}
+.content-row input[type="text"]{
+    padding: 5px;
+}
+.content-row input:focus, textarea:focus{
+    outline: none; /*bỏ dòng gạch xanh mỗi khi nhấp chuột*/
+}
+.contact-form-row{
+    margin-bottom: 20px;
+}
+.submit-row{
+    text-align: center;
+    color: #ffffff;
+}
+.contact-form input[type="submit"]{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+    font-size: 18px;
+}
+footer .contact-info {
+    box-sizing: border-box;
+    height: 700px;
+    padding-left: 100px;
+}
+footer .contact-info h3{
+    margin-top: 108px;
+    font-size: 45px;
+}
+.line-contact-info{
+    padding: 20px 0;
+}
+.line-contact-info h4{
+    color: #333333;
+    font-size: 25px;
+}
+.line-contact-info p{
+    font-size: 15px;
+    max-width: 300px;
+}
+.line-contact-info p span{
+    color: #f48146;
+    background: #ffffff;
+}
+footer .social-icon i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #bbbbbb;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 20px;
+}
+footer .social-icon i:hover{
+    background: #f48146;
 }
