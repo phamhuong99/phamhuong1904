@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<pre>
+    Toán tử rút gọn
+    khi 1 biến +, -, *, / , chia lấy dư, nối chuỗi với chính bản thân nó
+    thì ta sẽ có toán tử rút gọn
+</pre>
+<?php
+//cách viết bình thường
+$a=5;
+$a = $a+5;
+$a = $a-5;
+$a = $a/5;
+$a = $a*5;
+$a = $a%5;
+
+//cách viết rút gọn
+$b=5;
+$b += 5;
+$b -= 5;
+$b /= 5;
+$b *= 5;
+$b %= 5;
+?>
+</body>
+</html>
