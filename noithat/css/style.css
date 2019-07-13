@@ -60,18 +60,91 @@ banner
 .banner h1 span {
     color: #f66c27;
 }
-.image1 span{
-    position: absolute;
+/*.main{
+    overflow: auto;
+}*/
+.anh{
+    position: relative;
 }
-.image1{
+.anh2{
+    position: absolute;
+    top: 340px;
+    left: 410px;
+}
+ img{
     margin-top: 145px;
     margin-left: 100px;
-    z-index: 0;
 }
-span{
-    z-index: 1;
+.skill{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #222222;
+    padding-top: 190px;
+    margin-left: 75px;
+    float: left;
 }
-
+.main nav.contact-form ul{
+    list-style: none;
+    padding-top: 330px;
+    margin-: 102px;
+}
+.main nav.contact-form li{
+    float: left;
+}
+.main nav.contact-form a {
+    display: inline-block;
+    padding: 12px 23px;
+    color: #ff4f14;
+    font-size: 25px;
+}
+#p1{
+    padding-top: 80px;
+    margin-left: 75px;
+}
+.main .read-more input[type="submit"]{
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    margin-left: 75px;
+    border-radius: 32px;
+    font-size: 18px;
+    float: left;
+}
+.content #h1{
+     margin-top: 200px;
+     margin-left: 220px;
+}
+.content .text{
+    padding: 50px 215px;
+    text-align: center;
+}
+.content .text #id2{
+    color: #ff4f14;
+}
+.content .text .col-id{
+    padding-top: 86px;
+}
+.content .text .col-id-2{
+    padding-top: 86px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.content2 #id12{
+    padding-top: 80px;
+    text-align: center;
+}
+.content2 .p12{
+    padding-top: 30px;
+    margin-left: 217px;
+    margin-right: 217px;
+    text-align: center;
+}
+.content2 .anh3{
+    margin-top: 0px;
+}
 footer{
     background: linear-gradient(to right, #f66c27 50%, #ffffff 50%);
 }
