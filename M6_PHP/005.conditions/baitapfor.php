@@ -8,10 +8,61 @@
 
 </head>
 <body>
-<?php
-for($i=0;$i<=20;$i++){
+<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tiêu đề</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+               <td> <?php
+                   for($i=1;$i<=20;$i++){
+                       echo '' . $i . '<br/>';
+                   }
+                   ?>
+               </td>
+                <td>
+                    <?php
+                    for($j=1;$j<=20;$j++){
+                        echo 'Tiêu đề số ' . $j . '<br/>';
+                    }
+                    ?>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
-}
-?>
+
+<div class="container1">
+    <div class="row1">
+        <table class="table1">
+            <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tiêu đề</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <?php
+            for($i = 1;$i <= 20;$i++) {
+                echo "<tr>";
+                echo "<td>$i</td>";
+                echo "<td>Bản ghi số $i</td>";
+                echo "</tr>";
+
+            }
+            ?>
+
+            </tbody>
+        </table>
+    </div>
+</div>
 </body>
 </html>
