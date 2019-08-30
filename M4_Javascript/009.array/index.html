@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    mảng là 1 kiểu dữ liệu để lưu trữ nhiều giá trị trong 1 biến duy nhất
+</pre>
+<script type="text/javascript">
+    /*khai báo mảng trong js*/
+    var students1=["Pham Thi Huong", "Chu Ngoc Anh", "Toan"];
+    console.log(students1);
+
+    /*cách 2 để khai báo mảng*/
+    var student2= new Array("Pham Thi Huong", "Chu Ngoc Anh", "Toan");
+    console.log(student2);
+
+    console.log("độ dài của mảng");
+    console.log(students1.length);
+    console.log(student2.length);
+
+    console.log("lặp bảng 2");
+    for(var i=0;i<student2.length;i++){
+        console.log(student2[i]);
+    }
+
+    //in ra các phần tử ủa magr bằng cách truy cập trực tiếp
+    console.log("in ra các phần tử của mảng bằng cách truy cập trực tiếp");
+    console.log(students1[0]);
+    console.log(students1[1]);
+    console.log(students1[2]);
+
+    /**
+     * Bài tập dùng vòng lặp while in ra các phần tử của mảng
+     *
+     */
+    console.log("vòng lặp while in ra các phần tử của mảng")
+    var i=0;
+    while(i<student2.length){
+        console.log(student2[i]);
+        i++;
+    }
+
+</script>
+</body>
+</html>
