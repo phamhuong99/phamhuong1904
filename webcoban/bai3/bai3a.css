@@ -1,0 +1,16 @@
+h1{
+    background: red;
+    padding: 20px;
+    margin-top: -10px;
+}
+.table{
+    background: darkturquoise;
+    margin-top: -20px;
+    padding: 10px;
+}
+a:hover{
+    color: red;
+}
+.body{
+    margin-top: 40px;
+}

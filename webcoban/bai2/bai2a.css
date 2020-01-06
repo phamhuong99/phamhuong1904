@@ -1,0 +1,8 @@
+.header ul li{
+    list-style: none;
+}
+.footer{
+    background: palevioletred;
+    padding: auto;
+    border: 1px solid red;
+}

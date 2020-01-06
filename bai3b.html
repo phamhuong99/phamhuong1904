@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        body {
+            margin: 10px auto;
+            width: 99%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            width: 100%;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        header, footer, li a {
+            color: black;
+        }
+
+        .menu li, footer {
+            background-color: royalblue;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        header {
+            background-color: yellow;
+            padding: 15px;
+        }
+
+        .menu li {
+            padding: 5px;
+            border: 1px solid #ffffff;
+        }
+
+        .menu li:hover {
+            background-color: steelblue;
+        }
+
+        #container {
+            width: 90%;
+            height: 250px;
+            margin: 10px auto;
+        }
+
+        #container a:last-child {
+            float: right;
+        }
+
+        .content {
+            margin-top: 50px;
+        }
+
+        .content a:hover {
+            color: red;
+        }
+
+        footer {
+            height: 50px;
+        }
+
+        footer p {
+            padding-top: 15px;
+        }
+        #image{
+            margin: 10px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>CHỢ VIỆC LÀM</h1>
+</header>
+<div class="row">
+    <div class="col-3 menu">
+        <ul>
+            <li><a> CNTT </a></li>
+            <li><a> GIÁO DỤC </a></li>
+            <li><a> KIẾN TRÚC </a></li>
+            <li><a> KINH TẾ </a></li>
+        </ul>
+    </div>
+    <div class="col-6">
+        <div id="container">
+            <h1>CƠ HỘI NGHỀ NGHIỆP DÀNH CHO SINH VIÊN CNTT</h1>
+            <div class="content">
+                <a href="1A.html">Trưởng nhóm lập trình</a>
+                <p>Team Leader - Trưởng nhóm lập trình là công việc thường thấy của dân IT khi có từ 3 - 5 năm kinh nghiệm</p>
+                <a href="1A.html">Chi tiết</a>
+            </div>
+            <div class="content">
+                <a href="1A.html">Chuyên gia phân tích dữ liệu</a>
+                <p>Ngoài việc trở thành nhóm lập trình, sinh viên IT có thể đảm nhiệm vị trí data analyst - chuyên gia phân tích dữ liệu, với mức lương 800-1000 USD </p>
+                <a href="1A.html">Chi tiết</a>
+            </div>
+            <div class="content">
+                <a href="1A.html">Lập trình viên về Web</a>
+                <p>Web developer - lập trình viên về web là vị trí của các sinh viên IT khi mới ra trường có kinh nghiệm từ 1- 3 năm ...</p>
+                <a href="1A.html">Chi tiết</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 center">
+
+        <img src="anh.jpg" height="213" width="237"/></div>
+</div>
+<footer>
+    <p class="center">Design by Phùng Dương</p>
+</footer>
+</div>
+</body>
+</html>

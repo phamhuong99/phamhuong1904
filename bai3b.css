@@ -1,0 +1,62 @@
+[class*="col-"] {
+    width: 100%;
+}
+h1{
+    background: yellow;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.left li a{
+    color: white;
+}
+.left li {
+    background: blueviolet;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    margin-right: 40px;
+}
+.left li:hover{
+    background-color: black;
+}
+.body a:hover{
+    color: red;
+}
+.footer{
+    background-color: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

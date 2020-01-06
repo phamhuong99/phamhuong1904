@@ -1,0 +1,61 @@
+body{
+    font-size: 17px;
+}
+.header{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    border-bottom: 2px solid black;
+}
+ul li{
+    list-style: none;
+}
+.row2{
+    width: 50%;
+    float: right;
+    margin-top: -139px;
+}
+.khac input{
+    width: 50%;
+    padding: 10px;
+}
+.info{
+    padding-top: 20px;
+}
+.gt{
+    margin: 10px;
+    padding:10px;
+}
+#age{
+    padding-top: 10px;
+
+}
+#gender{
+    padding-top: 10px;
+}
+#name input{
+    width: 40%;
+    padding: 8px;
+    margin-left: 15px;
+}
+#age input{
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 3px;
+
+}
+#gender input{
+    margin-left: 25px;
+}
+.anh{
+    float: left;
+    margin-top: -150px;
+    margin-left: 60%;
+}
+.button{
+    margin-left: 80%;
+    padding: 15px;
+}
+.button button{
+    padding: 5px;
+}

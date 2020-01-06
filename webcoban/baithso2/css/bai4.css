@@ -1,0 +1,123 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1{
+    background: blueviolet;
+    padding: 25px;
+    padding-left: 10px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-wrapper{
+    margin-top: -20px;
+    background: orange;
+    padding: 30px;
+}
+header .main-navigation .main-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+/*
+    li.menu-item là li cấp 1
+*/
+.main-navigation .main-menu li.menu-item {
+    background: orange;
+    float: left;
+    position: relative;
+    margin-top: -20px;
+}
+/*
+    li.menu-item là li cấp 2, 3, 4,...
+*/
+.main-navigation .main-menu li.submenu-item{
+    position: relative;
+}
+/*khi hover vào thẻ li cấp 1 */
+.main-navigation .main-menu li.menu-item:hover > ul.submenu{
+    display: block;
+}
+/*khi hover vào thẻ li cấp 2 trở lên */
+.main-navigation .main-menu li.submenu-item:hover > ul.submenu{
+    display: block;
+}
+.main-navigation .main-menu li a{
+    background: orange;
+    color: white;
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.main-navigation .main-menu li a:hover{
+    background: blueviolet;
+
+}
+/*
+    Begin submenu
+*/
+/*
+     SUBMENU NẰM TRONG LI.MENU-ITEM CẤP 1
+*/
+nav li.menu-item > .submenu{
+    display: none;
+    min-width: 250px;
+    position: absolute;
+    top: 44px;
+    left: 0;
+
+}
+/*
+     SUBMENU NẰM TRONG LI.MENU-ITEM CẤP 2, 3, 4,...
+*/
+nav li.menu-item .submenu .submenu{
+    display: none;
+    width: 300px;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+nav .submenu li.submenu-item{
+    border-bottom: 1px solid white;
+}
+/*
+    End menu
+*/
+
+input {
+    border-radius: 5px;
+    height: 24px;
+    width: 220px;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+button {
+    height: 24px;
+    width: 65px;
+}
+
+.content {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+.design {
+    display: block;
+}

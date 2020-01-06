@@ -93,3 +93,12 @@ ul {
         width: 100%;
     }
 }
+
+footer{
+    border: blue solid 2px;
+    background: yellow;
+    padding-bottom : 3px;
+    margin-top: 5px;
+    color: black;
+
+}
