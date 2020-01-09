@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bai4.css">
+    <link rel="stylesheet" href="bai4.css">
 </head>
 <body>
-<h1>BOOKD ONLINE</h1>
+<header>
+    <h1>BOOKS ONLINE</h1>
     <div class="site-wrapper">
         <header>
-            <nav class="main-navigation">
+            <nav>
                 <ul class="main-menu clearfix">
                     <li class="menu-item">
                         <a href="#">Sách Giáo Khoa</a>
@@ -47,53 +47,53 @@
             </nav>
         </header>
     </div>
-<div class="row">
-    <div class="col-3">
-        <form name="register" method="post" action="">
-            <div style="padding:10px">
-                <label>Tìm Kiếm</label><br>
-                <input type="text" name="name" value="" placeholder="nhập nội dung bạn muốn tìm">
-                <button>Tìm</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <form class="timkiem">
+                    <label>Tìm kiếm: </label>
+                    <input type="text" placeholder="Tìm kiếm">
+                    <button>Tìm</button>
+                </form>
             </div>
-        </form>
+            <div class="col-9">
+                <div id="container">
+                    <div class="content">
+                        <p>Toán</p>
+                        <img src="Image/1.jpg" alt="sach-toan">
+                    </div>
+                    <div class="content">
+                        <p>Ngữ Văn</p>
+                        <img src="Image/2.jpg" alt="sach-toan">
+                    </div>
+                    <div class="content">
+                        <p>Toán - STK</p>
+                        <img src="Image/3.jpg" alt="sach-toan">
+                    </div>
+                    <div class="content">
+                        <p>Ngữ Văn - STK</p>
+                        <img src="Image/4.jpg" alt="sach-toan">
+                    </div>
+                    <div class="content">
+                        <p>Toán</p>
+                        <img src="Image/5.jpg" alt="sach-toan">
+                    </div>
+                    <div class="content">
+                        <p>Ngữ Văn</p>
+                        <img src="Image/6.jpg" alt="sach-toan">
+                    </div>
+                    <div class="content">
+                        <p>Ngữ Văn</p>
+                        <img src="Image/6.jpg" alt="sach-toan">
+                    </div>
+                    <div class="content">
+                        <p>Ngữ Văn</p>
+                        <img src="Image/6.jpg" alt="sach-toan">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-3 menu">
-        <div class="content">
-            <p>Toán</p>
-            <img src="image/1.jpg" alt="sach-toan">
-        </div>
-        <div class="content">
-            <p>Ngữ Văn</p>
-            <img src="image/2.jpg" alt="sach-toan">
-        </div>
-        <div class="content">
-            <p>Toán - STK</p>
-            <img src="image/3.jpg" alt="sach-toan">
-        </div>
-        <div class="content">
-            <p>Ngữ Văn - STK</p>
-            <img src="image/4.jpg" alt="sach-toan">
-        </div>
-        <div class="content">
-            <p>Toán</p>
-            <img src="image/5.jpg" alt="sach-toan">
-        </div>
-        <div class="content">
-            <p>Ngữ Văn</p>
-            <img src="image/6.jpg" alt="sach-toan">
-        </div>
-        <div class="content">
-            <p>Ngữ Văn</p>
-            <img src="image/6.jpg" alt="sach-toan">
-        </div>
-        <div class="content">
-            <p>Ngữ Văn</p>
-            <img src="image/6.jpg" alt="sach-toan">
-        </div>
-    </div>
-</div>
-<footer>
-    <p>Design by</p>
-</footer>
+</header>
 </body>
 </html>

@@ -30,3 +30,6 @@ include_once "mvc/models/ProductModel.php";
  * Các trang đa số chỉ thay đổi nội dung chính giữa trang mà không thay đổi header hay footer
  */
 
+$route = new \MVC\Route();
+$route->run();
+

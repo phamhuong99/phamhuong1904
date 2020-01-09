@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+</script>
+
+<form id="myform">
+    <table align="center" border="2px solid black">
+        <tr>
+            <td style="text-indent:30px"> Ngày sinh: </td>
+            <td>
+                <input type="date" name="bday">
+            </td>
+            <!--<td>
+                Birthday:
+                <input type="date" name="bday">
+                <input type="submit">
+            </td>-->
+        </tr>
+        <tr>
+            <td style="text-indent:30px"> Cung: </td>
+            <td>
+                <input id="date" onchange="cunghoangdao()">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" style="padding-top:30px">
+                <input type="button" id="btnXem" value="Xem" onclick="cung()" />
+                <input type="button" id="btnXoa" value="Xóa" onclick="Clean()" />
+            </td>
+    </table>
+</form>
+</body>
+</html>

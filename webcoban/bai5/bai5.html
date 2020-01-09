@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bai5.css">
+</head>
+<body>
+<script type="text/javascript">
+    var mang = new Array()
+    function CatChuoi() {
+        var chuoi;
+        chuoi = document.getElementById("txtChuoi").value;
+        if(chuoi !=""){
+            mang = chuoi.split(",");
+            var select = document.getElementById("DanhSach");
+            for(var i=0; i<mang.length;i++){
+                var option = document.createElement("option");
+                option.id=i;
+                option.value=i;
+                option.text=mang[i];
+                select.add(option);
+            }
+        }else {
+            alert("Bạn phải nhập chuỗi");
+            document.getElementById("txtChuoi").focus();
+        }
+    }
+    function Myfunction() {
+        var x = document.getElementById("DanhSach").value;
+        alert("Bạn đã chọn mục" + x);
+    }
+    function Clean() {
+        document.getElementById("txtChuoi").value = null;
+    }
+</script>
+
+
+
+<form id="myform">
+    <table align="center" width="300">
+        <tr>
+            <td style="text-indent:30px"> Chuỗi: </td>
+            <td>
+                <input type="text" id="txtChuoi" />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-indent:30px"> Danh sách: </td>
+            <td>
+                <select id="DanhSach" onchange="Myfunction()"></select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" style="padding-top:30px">
+                <input type="button" id="btnThucHien" value="Thực Hiện" onclick="CatChuoi()" />
+                <input type="button" id="btnHuy" value="Hủy" onclick="Clean()" />
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

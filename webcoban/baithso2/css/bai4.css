@@ -107,15 +107,18 @@ button {
     width: 65px;
 }
 
-.content {
+img{
+    width: 200px;
+    height: 300px;
+}
+.content{
     display: inline-block;
     padding-right: 15px;
     padding-left: 20px;
-}
-
-img {
-    width: 200px;
-    height: 300px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: right;
 }
 
 .design {
